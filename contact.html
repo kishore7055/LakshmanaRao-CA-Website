@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Lakshmana Rao CA Firm</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="index.html"><span class="brand-mark">LR</span><span><strong>Lakshmana Rao</strong><small>Chartered Accountants</small></span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-menu"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="primary-menu">
+        <li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="services.html">Services</a></li><li><a href="industries.html">Industries</a></li><li><a href="team.html">Team</a></li><li><a href="blog.html">Tax Updates</a></li><li><a class="nav-cta" href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="page-hero"><div class="container"><p class="eyebrow">Contact Us</p><h1>Tell us what you need help with.</h1><p>Share your tax, GST, audit, accounting or compliance requirement and we will respond with the next steps.</p></div></section>
+    <section class="section contact-section">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <h2>Get in touch</h2>
+          <p><strong>Website:</strong> <a href="https://lakshmanaraocafirm.in/">lakshmanaraocafirm.in</a></p>
+          <p><strong>Email:</strong> <a href="mailto:info@lakshmanaraocafirm.in">info@lakshmanaraocafirm.in</a></p>
+          <p><strong>Services:</strong> ITR, GST, audit, accounting, company registration, compliance and advisory.</p>
+          <div class="map-box">Office location map area</div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <label>Name<input type="text" name="name" required placeholder="Your name"></label>
+          <label>Email<input type="email" name="email" required placeholder="you@example.com"></label>
+          <label>Phone<input type="tel" name="phone" required placeholder="Your phone number"></label>
+          <label>Service Required<select name="service" required><option value="">Select a service</option><option>Income Tax Filing</option><option>GST Services</option><option>Audit & Assurance</option><option>Accounting & Bookkeeping</option><option>Company Registration</option><option>Virtual CFO Services</option></select></label>
+          <label>Message<textarea name="message" rows="5" required placeholder="Briefly describe your requirement"></textarea></label>
+          <button class="btn btn-primary" type="submit">Send Enquiry</button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer compact-footer"><div class="footer-bottom">© <span id="year"></span> Lakshmana Rao CA Firm. All rights reserved.</div></footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
